@@ -1,0 +1,9 @@
+[package]
+name = "opendal-postgresql"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+opendal = { version = "0.53.0", features = ["services-postgresql"] }
+tokio = {version="1.44.1", features = ["full"]}
+anyhow= "1.0.71"
